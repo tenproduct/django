@@ -47,7 +47,7 @@ def get_complete_version(version=None):
         from django import VERSION as version
     else:
         assert len(version) == 5
-        assert version[3] in ('alpha', 'beta', 'rc', 'final')
+        assert version[3] in ('alpha', 'beta', 'rc', 'final', 'isotoma')
 
     return version
 
