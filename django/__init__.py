@@ -1,8 +1,8 @@
 from django.utils.version import get_version
 
-VERSION = (1, 8, 3, 'isotoma', 1)
+VERSION = (1, 8, 3, 'post', 1)
 
-__version__ = '1.8.3-isotoma1'
+__version__ = '1.8.3-post1'
 
 
 def setup():

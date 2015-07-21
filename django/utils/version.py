@@ -10,7 +10,7 @@ from django.utils.lru_cache import lru_cache
 def get_version(version=None):
     "Returns a PEP 386-compliant version number from VERSION."
 
-    return '1.8.3-isotoma1'
+    return '1.8.3-post1'
 
     version = get_complete_version(version)
 
